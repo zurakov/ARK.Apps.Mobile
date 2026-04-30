@@ -199,16 +199,16 @@ namespace ARK.Apps.Mobile.Tests.Units.Components.Foundations.LoadingDots
                             {
                                 new SharpKeyframe
                                 {
-                                Selector = "0%, 80%, 100%",
-                                
-                                    Properties = new List<SharpKeyframeProperty>
-                                    {
-                                        new SharpKeyframeProperty
+                                    Selector = "0%, 80%, 100%",
+                                    
+                                        Properties = new List<SharpKeyframeProperty>
                                         {
-                                            Name = "transform",
-                                            Value = "scale(0)"
+                                            new SharpKeyframeProperty
+                                            {
+                                                Name = "transform",
+                                                Value = "scale(0)"
+                                            }
                                         }
-                                    }
                                 },
                                 new SharpKeyframe
                                 {
